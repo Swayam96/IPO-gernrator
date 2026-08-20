@@ -1,0 +1,21 @@
+# Secrets / credentials — never commit
+.env
+client_secret.json
+token.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / tooling
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated output
+*.docx
+*.log
+server.log
